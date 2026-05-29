@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+dist/
+frontend/dist/
+backend/target/
+
+# Logs
+*.log
+backend/backend.log
+frontend/frontend.log
+
+# Local backups
+*.bak
+*.bak-*
+frontend/src/components\\*.vue
+
+# Runtime and local configuration
+.env
+.env.*
+application-prod.yml
+backend/src/main/resources/application.yml
+backend/src/main/resources/application.example.yml
+
+# Offline packages and generated release artifacts
+update/
+*.tar
+*.tar.gz
+*.zip
+
+# Local documents and deployment notes that are not part of program source upload
+/*.md
+/db_charset_check.sql
+/deploy_to_server.py
+/index.html
+/internal_offline_deployment_plan.md
+/server_deployment_guide.md
+/start_dev.sh
+/style.css
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
